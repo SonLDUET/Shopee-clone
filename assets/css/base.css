@@ -3,7 +3,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
-    --primary-color: rgb(212, 80, 28);
+    --primary-color: #fb5533;
 }
 
 /* reset all the default properties to our default defination */
@@ -24,9 +24,9 @@ body {
 }
 
 .grid {
-    width: 1200px;
+    width: 1220px;
     height: 20%;
-    /* max-width: 100%; */
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -38,6 +38,9 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
 
 /* Animation */
 @keyframes fadeIn{
