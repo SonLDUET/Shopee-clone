@@ -37,6 +37,7 @@ body {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
 }
 
 .grid__column {
@@ -53,3 +54,53 @@ body {
         opacity: 1;
     }
 }
+
+
+.home__filter-sort-select {
+    position: relative;
+    min-width:  150px;
+    height: 30px;
+    padding: 0 0 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__sort-select-input {
+    padding: 0;
+    margin: 0;
+    background-color: var(--white-color);
+    top: 100%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+
+.select__input-link a:hover {
+    background-color: #eeecec;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.select__input-link a{
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.select__input-link {
+    list-style: none;
+    width: 100%;
+}
+
+.home__sort-arrow-icon {
+
+}
+
+

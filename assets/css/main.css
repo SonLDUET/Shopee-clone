@@ -336,8 +336,9 @@
     cursor: pointer;
     margin: 0 5px;
     color:#333;
-    background-color: transparent;
+    background-color: var(--white-color);
 }
+
 .btn:hover {
     background-color: rgba(0,0,0,0.05);
 }
@@ -879,12 +880,12 @@
 .category__heading {
     display: flex;
     align-items: center;
-    margin: 5px 10px;
+    margin: 5px 0px;
 }
 
 .category__list {
     padding-left:30px ;
-    margin: 0 12px;
+    margin: 0;
 }
 
 .category__heading .category__icon {
@@ -930,9 +931,56 @@
 }
 .home__filter {
     display: inline-flex;
+    align-items: center;
 }
 
 .home__filter-btn {
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 5px;
+    color:#333;
     background-color: var(--white-color);
-    margin: 10px;
 }
+
+.home__filter-btn:hover {
+    background-color: #dedede;
+}
+
+.home__filter-title {
+    padding: 12px 22px;
+    font-size: 0.9rem;
+}
+
+.home__filter-btn--active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.home__filter-btn--active:hover {
+    background-color: #ff775c;
+}
+
+.home__filter {
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home__filter-pagination {
+    display: flex;
+
+}
+
+
+.home__sort-arrow-icon {
+    padding-top: 5px;
+    margin-right: 8px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+

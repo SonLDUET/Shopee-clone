@@ -261,16 +261,29 @@
                         <span class="home__filter-title">
                             Sắp xếp theo
                         </span>
-                        <button class="btn home__filter-btn">Phổ biến</button>
-                        <button class="btn home__filter-btn">Mới nhất</button>
-                        <button class="btn home__filter-btn">Bán chạy</button>
+                        <button class="home__filter-btn">Phổ biến</button>
+                        <button class="home__filter-btn home__filter-btn--active">Mới nhất</button>
+                        <button class="home__filter-btn">Bán chạy</button>
                         <div class="home__filter-sort-select">
                             <span class="home__filter-sort-select--current">
                                 Giá
                             </span>
                             <i class="home__sort-arrow-icon fa-solid fa-angle-down"></i>
-                            <div class="home__sort-option-list">
-                                
+                            <ul class="home__sort-select-input">
+                                <li class="select__input-link"><a href="">Từ cao xuống thấp</a></li>
+                                <li class="select__input-link"><a href="">Từ thấp lên cao</a></li>
+                                <li class="select__input-link"><a href="">Ngẫu nhiên</a></li>
+                            </ul>
+                        </div>
+                        <div class="home__filter-pagination">
+                            <span class="home__filter-page-number">
+                                <span class="home__filter-page-current">1</span>/14
+                            </span>
+                            <div class="home__filter-page-navigation">
+                                <a href="" class="home__filte-page-btn">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
